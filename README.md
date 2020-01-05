@@ -1,4 +1,4 @@
- tasmota
+# Tasmota
 Hur jag installerade Tasmota
 
 ## Sonoff Basic R2 (validerad)
