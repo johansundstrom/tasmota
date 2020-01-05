@@ -1,4 +1,4 @@
-# tasmota
+ tasmota
 Hur jag installerade Tasmota
 
 ## Sonoff Basic R2 (validerad)
@@ -18,12 +18,15 @@ Hur jag installerade Tasmota
 2. Koppla bort 230VAC
 3. Sätt på OTA-jumpern (over the air)
 4. Ladda ned ```Tasmota-SE.bin``` (https://github.com/arendst/Tasmota/releases)
-5. Ladda ned ```tool_01DIY85(3.3.0).exe``` (https://github.com/itead/Sonoff_Devices_DIY_Tools/tree/master/tool) (PC bara)
+5. Ladda ned ```tool_01DIY85(3.3.0).exe``` (https://github.com/itead/Sonoff_Devices_DIY_Tools/tree/master/tool) (för PC)
 6. Skapa en mobil hotspot med SSID ```sonoffDiy``` och pw ```20170618sn```
 7. Koppla in 230VAC
-8. Starta ```tool_01DIY85(3.3.0).exe```
-9. Klicka ```Firmware flash``` och välj Tasmota-SE.bin. Klicka OK
+8. Anslut Tasmota och PC till ```sonoffDiy```
+9. Starta ```tool_01DIY85(3.3.0).exe```
+10. Kontrollera att Sonoff nås genom att klicka ```on``` och ```off```
+11. Klicka ```Firmware flash``` och välj Tasmota.bin. Klicka OK
 
 (min sonoff hade bara plats för 508kB i minnet. Jag valde file ```tasmota-lite.bin```)
 
-10. Ta bort OTA jumpern
+12. Ta bort OTA jumpern
+13. Starta om
