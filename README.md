@@ -3,6 +3,12 @@ Hur jag installerade Tasmota
 
 ## Sonoff Basic R2 (validerad)
 
+### Tasmota mallar
+* https://templates.blakadder.com/
+
+### Tasmota kommandon
+* https://tasmota.github.io/docs/#/Commands
+
 ### Firmware
 * https://github.com/arendst/Tasmota/releases
 
