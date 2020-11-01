@@ -36,3 +36,7 @@ Hur jag installerade Tasmota
 
 12. Ta bort OTA jumpern
 13. Starta om
+
+## WiFi Provisioning
+
+1. Surfa 192.168.4.1
