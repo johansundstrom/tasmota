@@ -40,3 +40,7 @@ Hur jag installerade Tasmota
 ## WiFi Provisioning
 
 1. Surfa 192.168.4.1
+
+## Aktivera Discovery mode MQTT
+
+* Sänd i Tasmota consolen ```SetOption19 1```
