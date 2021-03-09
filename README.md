@@ -66,7 +66,7 @@ Hur jag installerade Tasmota
 * SPI Mode - DIO
 * Flash Size - 32Mbit
 
-6. WiFi Provisioning
+6. <a href="https://github.com/johansundstrom/tasmota/blob/master/README.md#wifi-provisioning">WiFi Provisioning</a>
 
 ## WiFi Provisioning
 
