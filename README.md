@@ -48,15 +48,8 @@ Hur jag installerade Tasmota
 12. Ta bort OTA jumpern
 13. Starta om
 
-## WiFi Provisioning
 
-1. Surfa 192.168.4.1
-
-## Aktivera Discovery mode MQTT
-
-* Sänd i Tasmota consolen ```SetOption19 1```
-
-## ESP32 Devkit V1
+## ESP32 Devkit V1 (validerad)
 
 1. Ladda ned ```tasmota32.bin``` från https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota32
 2. Samtliga bin-filer från https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota32/ESP32_needed_files
@@ -74,3 +67,11 @@ Hur jag installerade Tasmota
 * Flash Size - 32Mbit
 
 6. WiFi Provisioning
+
+## WiFi Provisioning
+
+1. Surfa 192.168.4.1
+
+## Aktivera Discovery mode MQTT
+
+* Sänd i Tasmota consolen ```SetOption19 1```
