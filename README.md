@@ -55,3 +55,16 @@ Hur jag installerade Tasmota
 ## Aktivera Discovery mode MQTT
 
 * Sänd i Tasmota consolen ```SetOption19 1```
+
+## ESP32 Devkit V1
+
+1. Ladda ned ```tasmota32.bin``` från https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota32
+2. Samtliga bin-filer från https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota32/ESP32_needed_files
+3. Installera "Flash Download Tools (ESP8266 & ESP32 & ESP32-S2)" från ```espressif.com > support > tools```
+4. Start in "Developer Mode" > ESP32 DownloadTool
+5. Inställningar
+
+* bootloader_dout_40m.bin - 0x1000
+* partitions.bin - 0x8000
+* boot_app0.bin - 0xe000
+* tasmota32.bin - 0x10000 
