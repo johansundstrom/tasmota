@@ -68,3 +68,9 @@ Hur jag installerade Tasmota
 * partitions.bin - 0x8000
 * boot_app0.bin - 0xe000
 * tasmota32.bin - 0x10000 
+
+* SPI Speed - 80MHz
+* SPI Mode - DIO
+* Flash Size - 32Mbit
+
+6. WiFi Provisioning
