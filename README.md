@@ -75,3 +75,28 @@ Hur jag installerade Tasmota
 ## Aktivera Discovery mode MQTT
 
 * Sänd i Tasmota consolen ```SetOption19 1```
+
+## Tasmota32-sensors.bin
+
+* För t.ex. BME280 - I2C
+* Ladda ned ´´´<a href="https://github.com/arendst/Tasmota/blob/firmware/firmware/tasmota32/tasmota32-sensors.bin">tasmota32-sensors.bin</a>´´´
+* Uppdatera med ´´´Firmware Upgrade´´´
+* Anslut t.ex. GPIO21 - SDA, GPIO22 - SCL
+* Konfigurera modulen
+* Efter uppstart genomförs en I2C scan och hittar sensorn
+
+## Tasmota32-display.bin
+
+* För t.ex. SSD1306 OLED
+* Ladda ned ´´´<a href="https://github.com/arendst/Tasmota/blob/firmware/firmware/tasmota32/tasmota32-display.bin">Tasmota32-display.bin</a>´´´
+* Uppdatera med ´´´Firmware Upgrade´´´
+* Anslut t.ex. GPIO21 - SDA, GPIO22 - SCL
+* Konfigurera modulen
+* Efter uppstart genomförs en I2C scan och hittar displayen
+
+### Användbara displaykommandon
+
+* *Display* - visar nuvarande inställningar
+* *DisplayRotate 2* - rotera
+* *DisplayText text* - visar "text"
+* *DisplayMode [0-5]* - 0 - text, 1 - Tid/datum, 2 - 
