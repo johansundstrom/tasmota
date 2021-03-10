@@ -70,12 +70,21 @@ Hur jag installerade Tasmota
 * Konfigurera modulen
 * Efter uppstart genomförs en I2C scan och hittar displayen
 
-### Användbara displaykommandon
+#### Användbara displaykommandon
 
-* *Display* - visar nuvarande inställningar
-* *DisplayRotate 2* - rotera
-* *DisplayText text* - visar "text"
-* *DisplayMode [0-5]* - 0 - text, 1 - Tid/datum, 2 - 
+* ```Display``` - visar nuvarande inställningar
+* ```DisplayRotate 2``` - rotera
+* ```DisplayText text``` - visar "text"
+* ```DisplayText [z]``` - rensar skärm
+ 
+#### positionering
+
+* ```DisplayText [s1l1c1]text``` - scale 1, line 1, column 1, text
+* ```DisplayText [s1x10y10]text``` - scale 1, x 10, y 10, text
+* ```DisplayText [zs3x12y16t]``` - visar klockan tt:mm centrerat
+* ```DisplayMode [0-5]``` - 0 - text, 1 - Tid/datum, 2 - 
+
+
 
 ## Tasmota mallar
 * https://templates.blakadder.com/
