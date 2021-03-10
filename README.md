@@ -17,8 +17,8 @@ Hur jag installerade Tasmota
 1. Uppdatera Sonoff till minst v.3.1 mha eWelink
 2. Koppla bort 230VAC
 3. Sätt på OTA-jumpern (over the air)
-4. Ladda ned ```<a href="https://github.com/arendst/Tasmota/releases">Tasmota.bin</a>```
-5. Installera ```<a href="https://github.com/itead/Sonoff_Devices_DIY_Tools/tree/master/tool>tool_01DIY85(3.3.0).exe</a>``` (för PC)
+4. Ladda ned <a href="https://github.com/arendst/Tasmota/releases">Tasmota.bin</a>
+5. Installera <a href="https://github.com/itead/Sonoff_Devices_DIY_Tools/tree/master/tool>tool_01DIY85(3.3.0).exe</a> (för PC)
 6. Skapa en mobil hotspot med SSID ```sonoffDiy``` och pw ```20170618sn```
 7. Koppla in 230VAC
 8. Anslut Tasmota och PC till ```sonoffDiy```
@@ -34,8 +34,8 @@ Hur jag installerade Tasmota
 
 ## ESP32 Devkit V1 (validerad)
 
-1. Ladda ned ```<a href="https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota32">tasmota32.bin</a>```
-2. Ladda ned samtliga bin-filer från https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota32/ESP32_needed_files
+1. Ladda ned <a href="https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota32">tasmota32.bin</a>
+2. Ladda ned samtliga <a href="https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota32/ESP32_needed_files">bin-filer</a>
 3. Installera "Flash Download Tools (ESP8266 & ESP32 & ESP32-S2)" från ```espressif.com > support > tools```
 4. Starta "Developer Mode" > "ESP32 DownloadTool"
 5. Inställningar:
@@ -55,7 +55,7 @@ Hur jag installerade Tasmota
 ## Tasmota32-sensors.bin
 
 * För t.ex. BME280 - I2C
-* Ladda ned ´´´<a href="https://github.com/arendst/Tasmota/blob/firmware/firmware/tasmota32/tasmota32-sensors.bin">tasmota32-sensors.bin</a>´´´
+* Ladda ned <a href="https://github.com/arendst/Tasmota/blob/firmware/firmware/tasmota32/tasmota32-sensors.bin">tasmota32-sensors.bin</a>
 * Uppdatera med ´´´Firmware Upgrade´´´
 * Anslut t.ex. GPIO21 - SDA, GPIO22 - SCL
 * Konfigurera modulen
@@ -64,7 +64,7 @@ Hur jag installerade Tasmota
 ## Tasmota32-display.bin
 
 * För t.ex. SSD1306 OLED
-* Ladda ned ´´´<a href="https://github.com/arendst/Tasmota/blob/firmware/firmware/tasmota32/tasmota32-display.bin">Tasmota32-display.bin</a>´´´
+* Ladda ned <a href="https://github.com/arendst/Tasmota/blob/firmware/firmware/tasmota32/tasmota32-display.bin">Tasmota32-display.bin</a>
 * Uppdatera med ´´´Firmware Upgrade´´´
 * Anslut t.ex. GPIO21 - SDA, GPIO22 - SCL
 * Konfigurera modulen
