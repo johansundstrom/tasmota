@@ -81,11 +81,9 @@ Hur jag installerade Tasmota
 
 * ```DisplayText [s1l1c1]text``` - scale 1, line 1, column 1, text
 * ```DisplayText [s1x10y10]text``` - scale 1, x 10, y 10, text
-* ```DisplayText":"[zx0y0r128:64s3x12y16t]``` - tid och rektangel
 * ```DisplayText [zs3x12y16t]``` - visar klockan tt:mm centrerat
+* ```DisplayText [zx0y0r128:64s3x12y16t]``` - tid och rektangel
 * ```DisplayMode [0-5]``` - 0 - text, 1 - Tid/datum, 2 - 
-
-
 
 ## Tasmota mallar
 * https://templates.blakadder.com/
