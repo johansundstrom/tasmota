@@ -56,7 +56,7 @@ Hur jag installerade Tasmota
 
 * För t.ex. BME280 - I2C
 * Ladda ned <a href="https://github.com/arendst/Tasmota/blob/firmware/firmware/tasmota32/tasmota32-sensors.bin">tasmota32-sensors.bin</a>
-* Uppdatera med ´´´Firmware Upgrade´´´
+* Uppdatera med ```Firmware Upgrade```
 * Anslut t.ex. GPIO21 - SDA, GPIO22 - SCL
 * Konfigurera modulen
 * Efter uppstart genomförs en I2C scan och hittar sensorn
