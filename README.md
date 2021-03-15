@@ -40,7 +40,8 @@ Hur jag installerade Tasmota
 4. Starta "Developer Mode" > "ESP32 DownloadTool"
 5. Inställningar:
 
-|--|--|
+| Fil | Adress |
+|---|---|
 | bootloader_dout_40m.bin | 0x1000 |
 | partitions.bin | 0x8000 |
 | boot_app0.bin | 0xe000 |
@@ -48,7 +49,6 @@ Hur jag installerade Tasmota
 | SPI Speed | 80MHz |
 | SPI Mode | DIO |
 | Flash Size | 32Mbit |
-|--|--|
 
 6. WiFi Provisioning 192.168.4.1
 7. Sänd i Tasmota konsolen ```SetOption19 1```
