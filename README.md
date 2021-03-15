@@ -36,7 +36,7 @@ Hur jag installerade Tasmota
 
 1. Ladda ned <a href="https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota32">tasmota32.bin</a>
 2. Ladda ned samtliga <a href="https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota32/ESP32_needed_files">bin-filer</a>
-3. Installera "Flash Download Tools (ESP8266 & ESP32 & ESP32-S2)" från ```espressif.com > support > tools```
+3. Installera <a href="https://www.espressif.com/sites/default/files/tools/flash_download_tool_v3.8.5.zip">Flash Download Tools (ESP8266 & ESP32 & ESP32-S2)</a> från ```espressif.com > support > tools```
 4. Starta "Developer Mode" > "ESP32 DownloadTool"
 5. Inställningar:
 
