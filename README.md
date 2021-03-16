@@ -3,14 +3,15 @@ Hur jag installerade Tasmota
 
 ## Sonoff Basic (validerad) samt Sonoff Basic R2 (validerad)
 
-1. Anslut USB-TTL enligt 3V3 (närmast SW), RX, TX, GND
-2. Håll ned SW och anslut 3V3
-3. Efter spänningsanslutning, släpp SW
-4. <a href="https://github.com/tasmota/tasmotizer">Tasmotize</a>
-5. Anslut till 230VAC
-6. Vid blink, tethera till 2.4GHz WiFi
-7. Surfa till 192.168.4.1
-8. Ange SSID och PWD
+1. Koppla bort 230VAC
+2. Anslut USB-TTL (FTDI) enligt 3V3 (närmast SW), RX, TX, GND
+3. Håll ned SW och anslut 3V3
+4. Efter spänningsanslutning, släpp SW
+5. <a href="https://github.com/tasmota/tasmotizer">Tasmotize</a>
+6. Anslut till 230VAC
+7. Vid blink, tethera till 2.4GHz WiFi
+8. Surfa till 192.168.4.1
+9. Ange SSID och PWD
 
 ## Sonoff Basic DIY (R3) ESP8285 chip (validerad)
 
