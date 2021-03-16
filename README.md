@@ -54,7 +54,7 @@ Hur jag installerade Tasmota
 | Flash Size | 32Mbit |
 
 6. WiFi Provisioning 192.168.4.1
-7. Sänd i Tasmota konsolen ```SetOption19 1```
+7. Aktivera MQTT som Home Assistant Discovery mode genom ```SetOption19 1``` Tasmota konsolen 
 
 ## Tasmota32-sensors.bin
 
