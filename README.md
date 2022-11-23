@@ -66,6 +66,12 @@ Hur jag installerade Tasmota
 * Konfigurera modulen
 * Efter uppstart genomförs en I2C scan och hittar sensorn
 
+## Rules
+
+```Rule<x> ON <trigger1> DO <command> ENDON ON <trigger2> DO <command> ENDON```
+
+
+
 ## Tasmota32-display.bin
 
 * För t.ex. SSD1306 OLED
