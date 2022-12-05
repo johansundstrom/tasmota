@@ -98,6 +98,19 @@ Hur jag installerade Tasmota
 * ```DisplayMode [0-5]``` 
    * 0 - text
    * 1 - Tid/datum, 2 - 
+   
+## Tasmota Display/MQTT
+
+```
+rule1
+on AM2301#Temperature do DisplayText [s2p21x0y0]Temp: %value% C endon
+on AM2301#Humidity do DisplayText [s1p21x0y15]Humid: %value% Rh endon
+
+rule2
+on AM2301#Temperature do publish mdh/plusivo/tph/temp %value% endon 
+on AM2301#Humidity do  publish mdh/plusivo/tph/humid %value% endon 
+on AM2301#DewPoint do  publish mdh/plusivo/tph/dew %value% endon 
+```
 
 ## Tasmota mallar
 * https://templates.blakadder.com/
