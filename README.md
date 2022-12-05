@@ -108,9 +108,9 @@ on AM2301#Humidity do DisplayText [s2p21x0y24]Rh %value%% endon
 on AM2301#Dewpoint do DisplayText [s2p21x0y47]Dew %value%*C endon
 
 rule2
-on AM2301#Temperature do publish mdh/plusivo/tph/temp %value% endon 
-on AM2301#Humidity do publish mdh/plusivo/tph/humid %value% endon 
-on AM2301#DewPoint do publish mdh/plusivo/tph/dew %value% endon 
+on AM2301#Temperature do publish h83/mobile/tph/temp %value% endon 
+on AM2301#Humidity do publish h83/mobile/tph/humid %value% endon 
+on AM2301#DewPoint do publish h83/mobile/tph/dew %value% endon 
 ```
 
 ## Tasmota mallar
