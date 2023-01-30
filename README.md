@@ -101,6 +101,10 @@ Hur jag installerade Tasmota
    
 ## Tasmota Display/MQTT
 
+* ESP32 - boot btn is gpio0
+* Tasmota SwitchMode 3 - toggle, SwitchMode 4 - Inverted SwitchMode
+* Power2 - toggle = if power state is ON switch to OFF and vice versa
+
 ```
 rule1 
 on AM2301#Temperature do DisplayText [s2p21x0y0]T  %value%*C endon 
