@@ -118,7 +118,7 @@ on Power1#State=1 do ruletimer1 5 endon
 on rules#timer=1 do power1 0 Endon
 ```
 
-* Rules#Timer=<x>	- when countdown RuleTimer<x> expires (x = 1..8).
+* Rules#Timer=&lt;x&gt;	- when countdown RuleTimer<x> expires (x = 1..8).
 
 ## Tasmota mallar
 * https://templates.blakadder.com/
