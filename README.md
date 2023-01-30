@@ -111,6 +111,11 @@ rule2
 on AM2301#Temperature do publish h83/mobile/tph/temp %value% endon 
 on AM2301#Humidity do publish h83/mobile/tph/humid %value% endon 
 on AM2301#DewPoint do publish h83/mobile/tph/dew %value% endon 
+
+rule3 
+on Button1 do Power1 endon 
+on Power1#State=1 do ruletimer1 5 endon 
+on rules#timer=1 do power1 0 Endon
 ```
 
 ## Tasmota mallar
