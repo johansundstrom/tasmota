@@ -57,6 +57,10 @@ Hur jag installerade Tasmota
 6. WiFi Provisioning 192.168.4.1
 7. Aktivera MQTT som Home Assistant Discovery mode genom ```SetOption19 1``` Tasmota konsolen 
 
+## ESP8266 Devkit V3
+
+1. https://tasmota.github.io/install/
+
 ## Tasmota32-sensors.bin
 
 * För t.ex. BME280 - I2C
