@@ -127,6 +127,15 @@ on rules#timer=1 do power1 0 Endon
 ```
 
 * Rules#Timer=&lt;x&gt;	- when countdown RuleTimer<x> expires (x = 1..8).
+ 
+Annan enhet kan visa MQTT events
+ 
+ ```
+ Rule1
+  ON mqtt#connected DO Subscribe h83Temp, tele/h83/SENSOR, AM2301.Temperature ENDON   
+  ON Event#h83Temp DO DisplayText [z]%value% ENDON
+
+ ```
 
 ## Tasmota mallar
 * https://templates.blakadder.com/
