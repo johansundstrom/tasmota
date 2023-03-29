@@ -136,6 +136,11 @@ Annan enhet kan visa MQTT events
   ON Event#h83Temp DO DisplayText [z]%value% ENDON
 
  ```
+ 
+ ## connect via UART
+ 
+ Backlog SSID1 <myssid>; Password1 <mypassword>; SSID2 <myssid2>;
+ 
 
 ## Tasmota mallar
 * https://templates.blakadder.com/
