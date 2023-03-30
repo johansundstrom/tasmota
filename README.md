@@ -87,7 +87,10 @@ Hur jag installerade Tasmota
 
 ### DisplayMode
 
-| Parameter	| LCD Display	| OLED Display |	TFT Display	| 7-segment Display (TM163x and MAX7219) |
+* Sex förprogrammerade displaymode's (0-5)
+* För att visa text med DisplayText, sätt DisplayMode 0
+
+| Parameter	| LCD Display	| OLED Display (SSD1306) |	TFT Display	| 7-segment Display (TM163x and MAX7219) |
 |---|---|---|---|---|
 | 0	| DisplayText	| DisplayText	| DisplayText	| All TM163x Displayfunctions |
 | 1	| Time/Date	| Time/Date	| Time/Date	| Time |
@@ -96,8 +99,7 @@ Hur jag installerade Tasmota
 | 4	| Local sensors	| MQTT and local sensors	| MQTT and local sensors	| NA |
 | 5	| MQTT and Time/Date	| MQTT, local sensors and Time/Date	| MQTT, local sensors and Time/Date	| NA |
 
-* ```displayMode```
-* Sex förprogrammerade displaymode's (0-5)
+
 
 #### Användbara displaykommandon
 
