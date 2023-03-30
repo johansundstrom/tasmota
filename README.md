@@ -85,6 +85,20 @@ Hur jag installerade Tasmota
 * Konfigurera modulen
 * Efter uppstart genomförs en I2C scan och hittar displayen
 
+### DisplayMode
+
+| Parameter	| LCD Display	| OLED Display |	TFT Display	| 7-segment Display (TM163x and MAX7219) |
++---+---+---+---+---|
+| 0	| DisplayText	| DisplayText	| DisplayText	| All TM163x Displayfunctions |
+| 1	| Time/Date	| Time/Date	| Time/Date	| Time |
+| 2	| Local sensors	| Local sensors	| Local sensors	| Date |
+| 3	| MQTT and Time/Date	| Local sensors and Time/Date	| Local sensors and Time/Date	| Time/Date |
+| 4	| Local sensors	| MQTT and local sensors	| MQTT and local sensors	| NA |
+| 5	| MQTT and Time/Date	| MQTT, local sensors and Time/Date	| MQTT, local sensors and Time/Date	| NA |
+
+* ```displayMode```
+* Sex förprogrammerade displaymode's (0-5)
+
 #### Användbara displaykommandon
 
 * ```Display``` - visar nuvarande inställningar
