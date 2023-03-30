@@ -88,7 +88,7 @@ Hur jag installerade Tasmota
 ### DisplayMode
 
 | Parameter	| LCD Display	| OLED Display |	TFT Display	| 7-segment Display (TM163x and MAX7219) |
-+---+---+---+---+---|
+|---|---|---|---|---|
 | 0	| DisplayText	| DisplayText	| DisplayText	| All TM163x Displayfunctions |
 | 1	| Time/Date	| Time/Date	| Time/Date	| Time |
 | 2	| Local sensors	| Local sensors	| Local sensors	| Date |
