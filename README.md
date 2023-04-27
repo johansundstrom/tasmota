@@ -107,7 +107,7 @@ Hur jag installerade Tasmota
 * ```DisplayRotate [0, 1, 2, 3]``` - rotera 90 grader
 * ```DisplayText text``` - visar "text"
 * ```DisplayText [z]``` - rensar skärm
-* ```DisplayText [sp1]```
+* ```DisplayText [sp1]``` - skalfaktor
  
 #### positionering
 
