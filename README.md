@@ -74,7 +74,17 @@ Hur jag installerade Tasmota
 
 ```Rule<x> ON <trigger1> DO <command> ENDON ON <trigger2> DO <command> ENDON```
 
+* autoexec.bat
+* Namnger flera DS18B20 vid uppstart
 
+```
+Rule1 ON System#Boot DO 
+  Backlog 
+    DS18Alias 783C01F096F2BB28,1;
+    DS18Alias 113C01F096174528,2;
+    DS18Alias 8B0316C310F3FF28,3
+ENDON
+```
 
 ## Tasmota32-display.bin
 
