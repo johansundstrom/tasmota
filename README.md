@@ -165,7 +165,7 @@ Annan enhet kan visa MQTT events
  
  ## connect via UART
  
- Backlog SSID1 <myssid>; Password1 <mypassword>; SSID2 <myssid2>;
+ Backlog SSID1 <myssid>; Password1 <mypassword>; SSID2 <myssid2>; ...
  
 
 ## Tasmota mallar
