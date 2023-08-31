@@ -127,7 +127,11 @@ ENDON
 * ```DisplayText [zx0y0r128:64s3x12y16t]``` - tid och rektangel
 * ```DisplayMode [0-5]``` 
    * 0 - text
-   * 1 - Tid/datum, 2 - 
+   * 1 - Tid/datum, 2 -
+ 
+#### DisplaySize
+
+```DisplaySize 1..4``` Set display scale-up size (SSD1306 and ILI9341 only) 
    
 ## Tasmota Display/MQTT
 
