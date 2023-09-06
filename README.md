@@ -160,17 +160,22 @@ on rules#timer=1 do power1 0 Endon
  
 Annan enhet kan visa MQTT events
  
- ```
- Rule1
+```
+Rule1
   ON mqtt#connected DO Subscribe h83Temp, tele/h83/SENSOR, AM2301.Temperature ENDON   
   ON Event#h83Temp DO DisplayText [z]%value% ENDON
 
- ```
+```
  
- ## connect via UART
+## connect via UART
  
- Backlog SSID1 myssid; Password1 mypassword; SSID2 myssid2; ...
- 
+```Backlog SSID1 myssid; Password1 mypassword; SSID2 myssid2; ...```
+
+## Visa lokala sensorer på display
+
+```rule1 on DS18B20-1#temperature do displaytext %value% C endon```
+
+
 
 ## Tasmota mallar
 * https://templates.blakadder.com/
