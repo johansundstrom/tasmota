@@ -195,6 +195,20 @@ rule1
 
 ```on event#tempalarm=28 do power1 0 enddo```
 
+* Exempel
+
+```
+Rule2 
+  on DS18B20-1#temperature do
+    Backlog
+      display text [z]%value%;
+      event b1=%value%
+  endon
+  on event#b1>27 do 
+    power1 0
+  enddo
+```
+
 ## Tasmota mallar
 * https://templates.blakadder.com/
 
