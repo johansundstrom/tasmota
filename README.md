@@ -177,11 +177,23 @@ Rule1
 
 eller...
 
-```rule1 on DS18B20-1#temperature do displaytext [y1]%value% *C endon on DS18B20-2#temperature do displaytext [y10]%value% *C endon```
+```
+rule1
+  on DS18B20-1#temperature do displaytext [y1]%value% *C endon
+  on DS18B20-2#temperature do displaytext [y10]%value% *C endon
+```
 
 ## Event
 
+* ```Rules``` agerar på triggers som t.ex ```ON Power1#state=1 DO...```
+* Kommandot ```Event eventmame``` skapar egna triggers
+* Skapa Event med ```=```
 
+```on DS18B20-1#temperature do event tempalarm=%value% endon```
+
+* Utvärdera eventtrigger
+
+```on event#tempalarm=28 do power1 0 enddo```
 
 ## Tasmota mallar
 * https://templates.blakadder.com/
