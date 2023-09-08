@@ -175,6 +175,12 @@ Rule1
 
 ```rule1 on DS18B20-1#temperature do displaytext %value% C endon```
 
+eller...
+
+```rule1 on DS18B20-1#temperature do displaytext [y1]%value% *C endon on DS18B20-2#temperature do displaytext [y10]%value% *C endon```
+
+## Event
+
 
 
 ## Tasmota mallar
