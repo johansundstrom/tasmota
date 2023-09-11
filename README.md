@@ -195,18 +195,13 @@ rule1
 
 ```on event#tempalarm=28 do power1 0 enddo```
 
-* Exempel
+* eller...
 
 ```
 Rule2 
-  on DS18B20-1#temperature do
-    Backlog
-      display text [z]%value%;
-      event b1=%value%
-  endon
-  on event#b1>27 do 
-    power1 0
-  enddo
+on DS18B20-1#temperature do event b1=%value% endon
+on event#b1>27 do power1 1 endon
+on event#b1<=27 do power1 0 endon
 ```
 
 ## Tasmota mallar
