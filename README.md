@@ -195,7 +195,7 @@ rule1
 
 ```on event#tempalarm=28 do power1 0 enddo```
 
-* eller...
+eller...
 
 ```
 Rule2 
@@ -203,6 +203,15 @@ on DS18B20-1#temperature do event b1=%value% endon
 on event#b1>27 do power1 1 endon
 on event#b1<=27 do power1 0 endon
 ```
+
+eller kanske...
+
+```
+on DS18B20-1#temperature do event b1=%value% endon 
+on event#b1>27 do displaytext [z]ALARM endon 
+on event#b1<=27 do displaytext [z]%value% endon
+```
+
 
 ## Tasmota mallar
 * https://templates.blakadder.com/
