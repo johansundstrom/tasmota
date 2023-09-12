@@ -158,7 +158,8 @@ on rules#timer=1 do power1 0 Endon
 
 * Rules#Timer=&lt;x&gt;	- when countdown RuleTimer<x> expires (x = 1..8).
  
-Annan enhet kan visa MQTT events
+* Annan enhet kan visa MQTT events
+* Sätt ```Displaymode``` 4 eller 5 för SSD1306
  
 ```
 Rule1
@@ -172,8 +173,6 @@ Rule1
 ```Backlog SSID1 myssid; Password1 mypassword; SSID2 myssid2; ...```
 
 ## Visa lokala sensorer på display
-
-* Sätt ```Displaymode``` 4 eller 5 för SSD1306
 
 ```rule1 on DS18B20-1#temperature do displaytext %value% C endon```
 
