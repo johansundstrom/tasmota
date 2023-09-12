@@ -173,6 +173,8 @@ Rule1
 
 ## Visa lokala sensorer på display
 
+* Sätt ```Displaymode``` 4 eller 5 för SSD1306
+
 ```rule1 on DS18B20-1#temperature do displaytext %value% C endon```
 
 eller...
