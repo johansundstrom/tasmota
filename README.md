@@ -224,6 +224,10 @@ on event#b1<=27 do displaytext [z]%value% endon
 * Max 16 variabler
 * värden och strängar tillåts
 
+## Time#Minute
+
+* ```Time#Minute|3``` var 3:e minut
+
 ## Tasmota mallar
 * https://templates.blakadder.com/
 
