@@ -213,6 +213,13 @@ on event#b1>27 do displaytext [z]ALARM endon
 on event#b1<=27 do displaytext [z]%value% endon
 ```
 
+## RuleTimer
+
+* 8 stycken ```RuleTimer``` 1..8
+* Tid anges i sekunder, 65535 sekunder
+* ```RuleTimer<x> 30``` sätter timer på 30 sekunder
+
+## Var<x>
 
 ## Tasmota mallar
 * https://templates.blakadder.com/
