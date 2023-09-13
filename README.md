@@ -221,6 +221,9 @@ on event#b1<=27 do displaytext [z]%value% endon
 
 ## Var<x>
 
+* Max 16 variabler
+* värden och strängar tillåts
+
 ## Tasmota mallar
 * https://templates.blakadder.com/
 
