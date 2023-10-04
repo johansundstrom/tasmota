@@ -139,7 +139,7 @@ ENDON
 * Tasmota SwitchMode 3 - toggle, SwitchMode 4 - Inverted SwitchMode
 * Power2 - toggle = if power state is ON switch to OFF and vice versa
 
-```
+```console
 rule1 
 on AM2301#Temperature do DisplayText [s2p21x0y0]T  %value%*C endon 
 on AM2301#Humidity do DisplayText [s2p21x0y24]Rh %value%% endon 
@@ -161,7 +161,7 @@ on rules#timer=1 do power1 0 Endon
 * Annan enhet kan visa MQTT events
 * Sätt ```Displaymode``` 4 eller 5 för SSD1306
  
-```
+```console
 Rule1
   ON mqtt#connected DO Subscribe h83Temp, tele/h83/SENSOR, AM2301.Temperature ENDON   
   ON Event#h83Temp DO DisplayText [z]%value% ENDON
@@ -178,7 +178,7 @@ Rule1
 
 eller...
 
-```
+```console
 rule1
   on DS18B20-1#temperature do displaytext [y1]%value% *C endon
   on DS18B20-2#temperature do displaytext [y10]%value% *C endon
@@ -198,7 +198,7 @@ rule1
 
 eller...
 
-```
+```console
 Rule2 
 on DS18B20-1#temperature do event b1=%value% endon
 on event#b1>27 do power1 1 endon
@@ -207,7 +207,7 @@ on event#b1<=27 do power1 0 endon
 
 eller kanske...
 
-```
+```console
 on DS18B20-1#temperature do event b1=%value% endon 
 on event#b1>27 do displaytext [z]ALARM endon 
 on event#b1<=27 do displaytext [z]%value% endon
