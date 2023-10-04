@@ -219,6 +219,10 @@ on event#b1<=27 do displaytext [z]%value% endon
 * Tid anges i sekunder, 65535 sekunder
 * ```RuleTimer<x> 30``` sätter timer på 30 sekunder
 
+```console
+Rule1 on rules#timer=1 do backlog ledpower toggle; ruletimer1 1 endon
+```
+
 ## Var<x>
 
 * Max 16 variabler
