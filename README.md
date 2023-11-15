@@ -186,6 +186,8 @@ rule1
 
 ## Event
 
+* Event EventName - Med ```Event eventName``` kan man definiera events och trigga dessa. Ett event med ```=``` tilldelar ett ```%value%``` som del av regeln.
+* Exampel: Regeln ```Event speed=2``` kan triggas ```on event#speed``` och ```%value%``` ```2```.
 * ```Rules``` agerar på triggers som t.ex ```ON Power1#state=1 DO...```
 * Kommandot ```Event eventmame``` skapar egna triggers
 * Skapa Event med ```=```
