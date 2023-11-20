@@ -218,8 +218,8 @@ on event#b1<=27 do displaytext [z]%value% endon
 ## RuleTimer
 
 * 8 stycken ```RuleTimer``` 1..8
-* Tid anges i sekunder, 65535 sekunder
-* ```RuleTimer<x> 30``` sätter timer på 30 sekunder
+* Tid anges i sekunder, 1-65535 sekunder
+* ```RuleTimer<x> 30``` sätter timer x på 30 sekunder
 
 ```console
 Rule1 on rules#timer=1 do backlog ledpower toggle; ruletimer1 1 endon
