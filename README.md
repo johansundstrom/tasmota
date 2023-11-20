@@ -109,8 +109,6 @@ ENDON
 | 4	| Local sensors	| MQTT and local sensors	| MQTT and local sensors	| NA |
 | 5	| MQTT and Time/Date	| MQTT, local sensors and Time/Date	| MQTT, local sensors and Time/Date	| NA |
 
-
-
 #### Användbara displaykommandon
 
 * ```Display``` - visar nuvarande inställningar
@@ -156,7 +154,7 @@ on Power1#State=1 do ruletimer1 5 endon
 on rules#timer=1 do power1 0 Endon
 ```
 
-* Rules#Timer=&lt;x&gt;	- when countdown RuleTimer<x> expires (x = 1..8).
+
  
 * Annan enhet kan visa MQTT events
 * Sätt ```Displaymode``` 4 eller 5 för SSD1306
@@ -168,7 +166,7 @@ Rule1
 
 ```
  
-## connect via UART
+## Anslut till WiFi via UART
  
 ```Backlog SSID1 myssid; Password1 mypassword; SSID2 myssid2; ...```
 
@@ -186,11 +184,9 @@ rule1
 
 ## Event
 
-* Event EventName - Med ```Event eventName``` kan man definiera events och trigga dessa. Ett event med ```=``` tilldelar ett ```%value%``` som del av regeln.
-* Exampel: Regeln ```Event speed=2``` kan triggas ```on event#speed``` och ```%value%``` ```2```.
-* ```Rules``` agerar på triggers som t.ex ```ON Power1#state=1 DO...```
-* Kommandot ```Event eventmame``` skapar egna triggers
-* Skapa Event med ```=```
+* ```Event eventName``` definierar events och triggar dessa. Ett event med ```=``` tilldelar ett ```%value%``` som del av regeln.
+* Exampel: ```Event speed=2``` kan triggas om ```event#speed``` är lika med ```%value%``` ```2```.
+* ```Rules``` agerar på triggers som t.ex ```ON Power1#state=1 DO...```0
 
 ```on DS18B20-1#temperature do event tempalarm=%value% endon```
 
@@ -222,7 +218,9 @@ on event#b1<=27 do displaytext [z]%value% endon
 * ```RuleTimer<x> 30``` sätter timer x på 30 sekunder
 
 ```console
+ruletimer1 1
 Rule1 on rules#timer=1 do backlog ledpower toggle; ruletimer1 1 endon
+rule1 1
 ```
 
 ## Var<x>
