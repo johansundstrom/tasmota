@@ -223,6 +223,20 @@ Rule1 on rules#timer=1 do backlog ledpower toggle; ruletimer1 1 endon
 rule1 1
 ```
 
+## Sända MQTT till Tasmota
+
+Fråga om status
+
+* ```cmnd/<topic>/LedPower```  //tomt meddelande
+* ```stat/<topic>/RESULT```    //{"LedPower1":"ON"}
+* ```stat/<topic>/LedPower``` ON
+
+Sänd ny status
+
+* ```cmnd/<topic>/LedPower TOGGLE```  //meddelande: TOGGLE
+* ```stat/<topic>/RESULT```    //{"LedPower1":"ON"}
+* ```stat/<topic>/LedPower``` ON
+
 ## Var<x>
 
 * Max 16 variabler
